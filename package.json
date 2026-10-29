@@ -1,0 +1,13 @@
+{
+  "name": "finance-tracker",
+  "version": "1.0.0",
+  "description": "Финансовый трекер на Sequelize",
+  "scripts": {
+    "seed": "node seed.js",
+    "queries": "node queries.js"
+  },
+  "dependencies": {
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  }
+}
